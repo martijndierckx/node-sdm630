@@ -1,0 +1,42 @@
+{
+  "name": "sdm630-modbus-tcp",
+  "version": "0.0.1",
+  "description": "A nodejs package which allows reading values from an Eastron SDM630 over a Modbus TCP gateway",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Martijn Dierckx",
+  "license": "MIT",
+  "dependencies": {
+    "jsmodbus": "^4.0.6",
+    "tldts": "^5.7.60",
+    "tslib": "~2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.22",
+    "@typescript-eslint/eslint-plugin": "5.10.2",
+    "@typescript-eslint/parser": "5.10.2",
+    "eslint": "~8.8.0",
+    "eslint-config-prettier": "~8.3.0",
+    "prettier": "~2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martijndierckx/node-sdm630-modbus-tcp.git"
+  },
+  "keywords": [
+    "eastron",
+    "energy",
+    "sdm630",
+    "modbus"
+  ],
+  "bugs": {
+    "url": "https://github.com/martijndierckx/node-sdm630-modbus-tcp/issues"
+  },
+  "homepage": "https://github.com/martijndierckx/node-sdm630-modbus-tcp#readme"
+}
